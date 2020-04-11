@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<title>Login Page
+</title>
+<head>
+<link rel="stylesheet" type="text/css" href="log.css">
+<script >
+	
+	function abc(){
+	var str=999999;
+	var str1=document.getElementById("text1").value;
+	var str2=document.getElementById("text2").value;
+	if(str2==str){
+		document.location.href = "proj1.html";
+		
+}
+	else {
+		document.write("The password you've is enter is incorrect"+"<br>"+"Please try with correct password");
+		}
+	}
+	
+
+</script>
+
+</head>
+<body>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<h1 align="center">LOG IN DETAILS : </H1>
+<div class="log" id="myDiv1">
+<input id="text1" placeholder="Username" required>
+<br>
+<input type="password" id="text2" placeholder="password" required>
+<button color="black" onclick="abc()" >Submit</button>
+<a href="login.html"><button>Back</button></a>
+<a href="index.html"><button>Close</button></a>
+</div>
+</body> 
+</html>
+
